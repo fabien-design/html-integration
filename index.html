@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>projet HTML</title>
+        <link rel="stylesheet" href="package/swiper-bundle.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: "#efdcd1",
+                        },
+                    },
+                },
+            };
+        </script>
+    </head>
+    <body>
+        <main>
+            <section class="relative h-[80vh]">
+                <p
+                    class="font-['Noto_Serif'] italic text-primary text-2xl absolute left-20 top-12 z-40"
+                >
+                    Exercice Saint Vincent
+                </p>
+                <div class="absolute w-full h-full">
+                    <div
+                        class="slider-text absolute top-[50%] left-[50%] z-40 my-auto mx-auto text-center max-w-[700px] text-white flex flex-col gap-4"
+                    >
+                        <p class="text-4xl pb-4 italic">Welcome</p>
+                        <h1 class="text-2xl md:text-6xl tracking-[0.5rem]">
+                            BEST STV
+                        </h1>
+                        <p class="font-semibold text-xl">
+                            Lorem ipsum dolor sit amet. Ut unde nisi et velit
+                            iure ea officiis rerum. Et voluptatum natus et nisi
+                            internos qui recusandae unde et perferendis beatae.
+                            Aut dolore galisum ut repellat iusto et excepturi
+                        </p>
+                        <button
+                            class="slider-btn py-6 px-12 m-auto bg-white text-black"
+                        >
+                            <p
+                                class="flex gap-2 items-center tracking-[0.25rem] font-semibold relative"
+                            >
+                                CLIC POUR TESTER
+                            </p>
+                        </button>
+                    </div>
+                </div>
+                <div class="swiper h-full">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide w-full h-full">
+                            <img
+                                class="w-full h-full object-cover"
+                                src="assets/landing-top-slider-3.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide w-full h-full">
+                            <img
+                                class="w-full h-full object-cover"
+                                src="assets/landing-top-slider-4.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide w-full h-full">
+                            <img
+                                class="w-full h-full object-cover"
+                                src="assets/landing-top-slider-3.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="swiper-slide w-full h-full">
+                            <img
+                                class="w-full h-full object-cover"
+                                src="assets/landing-top-slider-4.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="pt-36 pb-72 px-20">
+                <div class="pb-20">
+                    <p class="font-['Noto_Serif'] text-[#cc998e]">
+                        <i>Simplicité</i>
+                    </p>
+                    <h2 class="text-6xl">TITRE LOREEM</h2>
+                </div>
+                <div class="flex gap-20">
+                    <div class="flex flex-col gap-[250px] w-full">
+                        <div class="home-number-container">
+                            <img
+                                class="w-full h-full object-cover z-40 relative shadow-md rounded-md"
+                                src="assets/landing-home-1.jpg"
+                                alt=""
+                            />
+                            <div class="relative ml-20 max-w-[25%]">
+                                <h3
+                                    class="home-text text-[25px] font-bold m-0 z-20 absolute top-50 left-0 -translate-x-1/2 translate-y-full flex gap-2 items-center"
+                                >
+                                    HOME
+                                </h3>
+                                <p
+                                    class="text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
+                                >
+                                    01
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img
+                                class="w-full h-full object-cover z-40 relative shadow-md rounded-md"
+                                src="assets/landing-home-3.jpg"
+                                alt=""
+                            />
+                            <div class="relative ml-20 max-w-[25%]">
+                                <h3
+                                    class="home-text text-[25px] font-bold m-0 z-20 absolute top-50 left-0 -translate-x-1/2 translate-y-full flex gap-2 items-center"
+                                >
+                                    HOME
+                                </h3>
+                                <p
+                                    class="text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
+                                >
+                                    03
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[250px] pt-[100px] w-full">
+                        <div class="relative">
+                            <img
+                                class="w-full h-full object-cover z-40 relative shadow-md rounded-md"
+                                src="assets/landing-home-2.jpg"
+                                alt=""
+                            />
+                            <div class="relative ml-20 max-w-[25%]">
+                                <h3
+                                    class="home-text text-[25px] font-bold m-0 z-20 absolute top-50 left-0 -translate-x-1/2 translate-y-full flex gap-2 items-center"
+                                >
+                                    HOME
+                                </h3>
+                                <p
+                                    class="text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
+                                >
+                                    02
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <img
+                                class="w-full h-full object-cover z-40 relative shadow-md rounded-md"
+                                src="assets/landing-home-4.jpg"
+                                alt=""
+                            />
+                            <div class="relative ml-20 max-w-[25%]">
+                                <h3
+                                    class="home-text text-[25px] font-bold m-0 z-20 absolute top-50 left-0 -translate-x-1/2 translate-y-full flex gap-2 items-center pl-6"
+                                >
+                                    HOME
+                                </h3>
+                                <p
+                                    class="text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
+                                >
+                                    04
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-36 px-20 h-[600px] bg-[url('assets/landing-slider1-background.jpg')]">
+            </section>
+        </main>
+
+        <script>
+            const swiper = new Swiper(".swiper", {
+                // Optional parameters
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                },
+
+                // If we need pagination
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+    </body>
+</html>
