@@ -4,9 +4,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>projet HTML</title>
-        <link rel="stylesheet" href="package/swiper-bundle.css" />
+        <link rel="stylesheet" href="css/swiper-bundle.css" />
         <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/index.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -41,23 +41,29 @@
                 </p>
                 <div class="absolute w-full h-full">
                     <div
-                        class="slider-text absolute top-[50%] left-[50%] z-40 my-auto mx-auto text-center max-w-[700px] text-white flex flex-col gap-4"
+                        class="slider-text absolute top-[50%] w-full left-[50%] px-10 sm:px-auto z-40 my-auto mx-auto text-center max-w-[700px] text-white flex flex-col gap-4"
                     >
-                        <p class="text-4xl pb-4 italic">Welcome</p>
-                        <h1 class="text-2xl md:text-6xl tracking-[0.5rem]">
+                        <p
+                            class="font-['Noto_Serif'] text-primary text-4xl pb-4 italic"
+                        >
+                            Welcome
+                        </p>
+                        <h1
+                            class="text-4xl md:text-6xl tracking-[0.5rem] font-bold"
+                        >
                             BEST STV
                         </h1>
-                        <p class="font-semibold text-xl">
+                        <p class="sm:font-semibold text-xl">
                             Lorem ipsum dolor sit amet. Ut unde nisi et velit
                             iure ea officiis rerum. Et voluptatum natus et nisi
                             internos qui recusandae unde et perferendis beatae.
                             Aut dolore galisum ut repellat iusto et excepturi
                         </p>
                         <button
-                            class="slider-btn py-6 px-12 m-auto bg-white text-black"
+                            class="slider-btn py-4 px-10 sm:py-6 sm:px-12 m-auto bg-white text-black"
                         >
                             <p
-                                class="flex gap-2 items-center tracking-[0.25rem] font-semibold relative"
+                                class="flex text-sm sm:text-md gap-2 items-center text-nowrap tracking-[0.25rem] font-semibold relative"
                             >
                                 CLIC POUR TESTER
                             </p>
@@ -101,88 +107,80 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </section>
-            <section class="pt-36 pb-72 px-20">
+            <section class="pt-36 pb-72 px-10 md:px-20">
                 <div class="pb-20">
-                    <p class="font-['Noto_Serif'] text-[#cc998e] italic text-xl">
+                    <p
+                        class="font-['Noto_Serif'] text-[#fbede0] italic text-xl"
+                    >
                         Simplicité
                     </p>
                     <h2 class="text-6xl">TITRE LOREEM</h2>
                 </div>
                 <div class="flex flex-col gap-20">
-                    <div class="flex flex-col lg:flex-row gap-[250px] w-full">
-                        <div class="home-number-container w-full">
+                    <div
+                        class="flex flex-col lg:flex-row gap-[15.625rem] w-full"
+                    >
+                        <div class="home-card-container w-full">
                             <img
-                                class="w-full h-full object-cover z-40 relative shadow-md rounded-md"
-                                src="assets/landing-home-1.jpg"
-                                alt=""
-                            />
-                            <div class="relative ml-20 max-w-[25%]">
-                                <h3
-                                    class="home-text text-[1.5rem] font-bold m-0 z-20 absolute top-50 left-0 -translate-x-1/2 translate-y-full flex gap-2 items-center"
-                                >
-                                    HOME
-                                </h3>
-                                <p
-                                    class="text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
-                                >
-                                    01
-                                </p>
-                            </div>
-                        </div>
-                        <div class="home-number-container w-full">
-                            <img
-                                class="w-full h-full object-cover z-40 relative shadow-md rounded-md"
+                                class="relative z-2 shadow-md rounded-md"
                                 src="assets/landing-home-2.jpg"
                                 alt=""
                             />
-                            <div class="relative ml-20 max-w-[25%]">
-                                <h3
-                                    class="home-text text-[1.5rem] font-bold m-0 z-20 absolute top-50 left-0 -translate-x-1/2 translate-y-full flex gap-2 items-center"
-                                >
-                                    HOME
-                                </h3>
-                                <p
-                                    class="text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
-                                >
-                                    02
-                                </p>
-                            </div>
+                            <h4
+                                class="home-text-test text-[1.5rem] font-bold m-0"
+                            >
+                                HOME
+                            </h4>
+                        </div>
+                        <div class="home-card-container w-full">
+                            <img
+                                class="relative z-2 shadow-md rounded-md"
+                                src="assets/landing-home-2.jpg"
+                                alt=""
+                            />
+                            <h4
+                                class="home-text-test text-[1.5rem] font-bold m-0"
+                            >
+                                HOME
+                            </h4>
                         </div>
                     </div>
-                    <div class="flex flex-col lg:flex-row gap-[250px] pt-[200px] w-full">
-                        <div class="relative w-full">
+                    <div
+                        class="flex flex-col lg:flex-row gap-[15.625rem] pt-[9.375rem] md:pt-[12.5] w-full"
+                    >
+                        <div class="relative w-full md:mb-[6.25rem]">
                             <img
                                 class="w-full h-full object-cover z-40 relative shadow-md rounded-md"
                                 src="assets/landing-home-3.jpg"
                                 alt=""
                             />
-                            <div class="relative ml-20 max-w-[25%]">
+                            <div class="relative ml-10">
                                 <h3
                                     class="home-text text-[1.5rem] font-bold m-0 z-20 absolute top-50 left-0 -translate-x-1/2 translate-y-full flex gap-2 items-center"
                                 >
                                     HOME
                                 </h3>
                                 <p
-                                    class="text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
+                                    class="home-number text-[150px] sm:text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
                                 >
                                     03
                                 </p>
                             </div>
                         </div>
-                        <div class="relative w-full">
+                        <div class="relative w-full md:mt-[6.25rem]">
                             <img
                                 class="w-full h-full object-cover z-40 relative shadow-md rounded-md"
                                 src="assets/landing-home-4.jpg"
                                 alt=""
                             />
-                            <div class="relative ml-20 max-w-[25%]">
+                            <div class="relative ml-10">
                                 <h3
                                     class="home-text text-[1.5rem] font-bold m-0 z-20 absolute top-50 left-0 -translate-x-1/2 translate-y-full flex gap-2 items-center pl-6"
                                 >
                                     HOME
                                 </h3>
                                 <p
-                                    class="text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
+                                    class="home-number text-[150px] sm:text-[200px] font-['Noto_Serif'] italic text-primary/50 absolute right-0 absolute top-0 left-0 z-10 translate-x-0 -translate-y-[30%]"
                                 >
                                     04
                                 </p>
@@ -192,33 +190,208 @@
                 </div>
             </section>
             <section class="h-[600px] relative">
-                <img class="opacity-90 absolute w-full h-full object-cover" src="assets/landing-slider1-background.jpg" alt="">
-                <div class="relative z-40 px-20 py-36">
-
-                    <div class="flex pl-20 justify-between overflow-hidden md:overflow-visible">
-                        <div class="flex flex-col gap-6 w-[90%]">
+                <img
+                    class="opacity-90 absolute w-full h-full object-cover"
+                    src="assets/landing-slider1-background.jpg"
+                    alt=""
+                />
+                <div class="relative z-40 pl-20 pr-10">
+                    <div
+                        class="flex pl-20 gap-12 justify-between overflow-hidden md:overflow-visible"
+                    >
+                        <div class="flex flex-col gap-6 w-[90%] py-36">
                             <div class="pb-10">
-                                <p class="font-['Noto_Serif'] text-[#cc998e] italic text-xl">
+                                <p
+                                    class="font-['Noto_Serif'] text-[#fbede0] italic text-xl"
+                                >
                                     Simplicité
                                 </p>
-                                <h2 class="text-4xl md:text-6xl font-semibold text-white">TITRE LOREEM</h2>
+                                <h2
+                                    class="text-4xl md:text-6xl font-semibold text-white"
+                                >
+                                    TITRE LOREEM
+                                </h2>
                             </div>
                             <p class="font-semibold text-xl text-white">
-                                Lorem ipsum dolor sit amet. Ut unde nisi et velit
-                                iure ea officiis rerum. Et voluptatum natus et nisi
-                                internos qui recusandae unde et perferendis beatae.
-                                Aut dolore galisum ut repellat iusto et excepturi
+                                Lorem ipsum dolor sit amet. Ut unde nisi et
+                                velit iure ea officiis rerum. Et voluptatum
+                                natus et nisi internos qui recusandae unde et
+                                perferendis beatae. Aut dolore galisum ut
+                                repellat iusto et excepturi
                             </p>
+                            <button
+                                class="slider-btn py-4 px-10 m-auto text-white"
+                            >
+                                <p
+                                    class="flex gap-2 items-center text-nowrap tracking-[0.25rem] font-semibold relative"
+                                >
+                                    CLIC
+                                    <span class="hidden sm:block"
+                                        >POUR TESTER</span
+                                    >
+                                </p>
+                            </button>
                         </div>
-                        <div class="w-full relative overflow-hidden md:overflow-visible">
-                            <img class="absolute top-0 -translate-y-20 left-50 w-full" src="assets/landing-slider1-img-1-2.jpg" alt="">
-                            <img class="absolute left-0 z-[30] " src="assets/landing-slider1-img-2.jpg" alt="">
-                            <img class="absolute top-0 left-0 translate-x-[70%] translate-y-[70%]" src="assets/landing-slider1-img-3.jpg" alt="">
+
+                        <!-- Container pour les images -->
+                        <div class="relative w-full h-full pt-20">
+                            <img
+                                class="relative w-full pl-20"
+                                src="assets/landing-slider1-img-1-2.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="absolute top-1/3 w-[40%] left-0 z-[30] -translate-x-[10%] translate-y-[10%] shadow-md"
+                                src="assets/landing-slider1-img-2.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="absolute top-[50%] w-[60%] left-0 w-[50%] z-[20] translate-x-[50%] translate-y-[60%] shadow-sm"
+                                src="assets/landing-slider1-img-3.jpg"
+                                alt=""
+                            />
                         </div>
                     </div>
                 </div>
             </section>
+            <section class="py-36 px-10 md:px-20">
+                <div class="pb-10 text-center">
+                    <p
+                        class="font-['Noto_Serif'] text-[#fbede0] italic text-xl pb-4"
+                    >
+                        Simplicité
+                    </p>
+                    <h2 class="text-4xl md:text-6xl font-semibold">
+                        TITRE LOREEM
+                    </h2>
+                </div>
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20"
+                >
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-1.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-2.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-3.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-4.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-5.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-6.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-7.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-8.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <img
+                            class="w-full shadow-lg"
+                            src="assets/landing-img-9.jpg"
+                            alt=""
+                        />
+                        <p class="mt-4 text-lg font-semibold text-[#3c2d2b]">
+                            TITRE LOREEM
+                        </p>
+                    </div>
+                </div>
+            </section>
         </main>
+        <footer
+            class="h-[90dvh] bg-[url('assets/landing-bottom-background-1.jpg')] bg-cover flex flex-col items-center justify-center"
+        >
+            <div class="w-[80%] md:w-[60%] lg:w-[50%] text-center">
+                <div class="pb-2">
+                    <p
+                        class="font-['Noto_Serif'] text-[#fbede0] italic text-xl pb-4"
+                    >
+                        Simplicité
+                    </p>
+                    <h2 class="text-4xl md:text-6xl font-semibold text-white">
+                        TITRE LOREEM
+                    </h2>
+                </div>
+                <p class="text-xl text-white pb-10">
+                    Lorem ipsum dolor sit amet. Ut unde nisi et velit iure ea
+                    officiis rerum. Et voluptatum natus et nisi internos qui
+                    recusandae unde et perferendis beatae. Aut dolore galisum ut
+                    repellat iusto et excepturi
+                </p>
+                <button
+                    class="slider-btn py-4 px-10 sm:py-6 sm:px-12 hover:sm:px-[3.937rem] hover:px-[3.437rem] m-auto bg-white text-black"
+                >
+                    <p
+                        class="flex text-sm sm:text-md gap-2 items-center text-nowrap tracking-[0.25rem] font-semibold relative"
+                    >
+                        CLIC POUR TESTER
+                    </p>
+                </button>
+            </div>
+        </footer>
 
         <script>
             const swiper = new Swiper(".swiper", {
